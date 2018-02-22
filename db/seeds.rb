@@ -21,4 +21,7 @@ Ingredient.create(name: "brandy")
 Ingredient.create(name: "sherry")
 Ingredient.create(name: "apple juice")
 
+
+
+
 puts 'Finished!'

@@ -1,0 +1,13 @@
+<div class="home-banner">
+  <div class="container align-middle content">
+    <div class="row">
+      <% @cocktails.each do |cocktail| %>
+        <div class="col-xs-12 col-sm-4">
+          <div class="card">
+            <p><%= cocktail.name %></p>
+            <i class="fas fa-glass-martini"><%= link_to 'Show', cocktail_path(cocktail) %></i>
+          </div>
+        </div>
+      <%end%>
+  </div>
+</div>
