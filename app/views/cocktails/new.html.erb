@@ -1,6 +1,18 @@
-<h1>Create a new cocktail</h1>
-<p>Enter your mix here</p>
-<%= simple_form_for @cocktail do |f| %>
-  <%= f.input :name %>
-  <%= f.button :submit %>
-<% end %>
+<div class="container">
+  <div class="row">
+    <div class="new-form">
+      <div class="col-xs-12 col-sm-6 col-sm-offset-3">
+        <h1>Create a new cocktail</h1>
+        <p>Enter your mix here</p>
+        <%= simple_form_for @cocktail do |f| %>
+          <%= f.input :name%>
+          <%= f.button :submit %>
+        <% end %>
+        <div class="back">
+          <%= link_to 'Back', cocktails_path %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
