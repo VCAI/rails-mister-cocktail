@@ -6,7 +6,7 @@
       <% @cocktails.each do |cocktail| %>
         <div class="col-xs-12 col-sm-4">
           <div class="card">
-            <p><%= cocktail.name %></p>
+            <h5><strong><%= cocktail.name %><strong></h5>
             <i class="fas fa-glass-martini glass"><%= link_to 'Mix It', cocktail_path(cocktail) %></i>
           </div>
         </div>
