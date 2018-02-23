@@ -1,4 +1,55 @@
-.new-form{
-  height: 50px;
-  border-color: red;
+.cocktail-form{
+  color: #FF8265;
+  margin-top: 70px;
+  border: 1px solid #FF8265;
+  padding: 40px;
+  border-radius: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-image: url('https://images.unsplash.com/photo-1514995428455-447d4443fa7f?ixlib=rb-0.3.5&s=0ebeb0a0d6c99fa9699d23fcc9469adc&auto=format&fit=crop&w=334&q=80');
+  input{
+    border-radius: 10px;
+  }
+  select{
+    border-radius: 10px;
+  }
+}
+
+.cocktail-form h1{
+  font-size: 35px;
+  text-align: center
+}
+
+.cocktail-form p{
+  font-size: 20px;
+  text-align: center
+}
+
+.submit{
+  background-color: #FF8265;
+  width: 200px;
+  border-radius: 10px
+}
+
+.form-field{
+  border-radius: 10px
+}
+
+.ingredient-form{
+  color: #FF8265;
+  margin-top: 70px;
+  border: 1px solid #FF8265;
+  padding: 40px;
+  border-radius: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-image: url('https://images.unsplash.com/photo-1504310578167-435ac09e69f3?ixlib=rb-0.3.5&s=2827d074d27cec8935aab7181204c760&auto=format&fit=crop&w=334&q=80');
+  input{
+    border-radius: 10px;
+  }
+  select{
+    border-radius: 10px;
+  }
 }

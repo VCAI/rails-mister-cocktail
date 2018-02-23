@@ -22,8 +22,13 @@ Ingredient.create(name: "creme de cacao")
 Ingredient.create(name: "brandy")
 Ingredient.create(name: "sherry")
 Ingredient.create(name: "apple juice")
-
-
-
+Ingredient.create(name: "sugar")
+Ingredient.create(name: "soda water")
+Ingredient.create(name: "vodka")
+Ingredient.create(name: "tequila")
+Ingredient.create(name: "white rum")
+Ingredient.create(name: "cognac")
+Ingredient.create(name: "cointreau")
+Ingredient.create(name: "lime juice")
 
 puts 'Finished!'

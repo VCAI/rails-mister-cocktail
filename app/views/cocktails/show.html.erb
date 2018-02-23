@@ -1,27 +1,30 @@
- <i class="far fa-hand-point-left hand"><%= link_to 'Back', cocktails_path %></i>
-<div class="wrapper">
+
+
   <div class="container">
     <div class="row">
-      <div class="col-xs-12 col-sm-6">
-          <h2><%= @cocktail.name %></h2>
-          <h5><strong>Ingredients:</strong></h5>
-          <ol>
-            <% @cocktail.doses.each do |dose| %>
-            <li>
-              <%= dose.ingredient.name %>  <%= dose.description %>
-              <%= link_to '[ x ]', dose_path(dose), method: "delete"%>
-            </li>
-            <%end %>
-          </ol>
-          <%= link_to 'Add an ingredient', new_cocktail_dose_path(@cocktail) %>
+      <div class="col-xs-12 col-sm-6 ingredients-card">
+        <h2><%= @cocktail.name %></h2>
+        <h5><strong>Ingredients:</strong></h5>
+        <ol>
+          <% @cocktail.doses.each do |dose| %>
+          <li>
+            <%= dose.ingredient.name %>  <%= dose.description %>
+            <%= link_to '[ x ]', dose_path(dose), method: "delete"%>
+          </li>
+          <%end %>
+        </ol>
+        <%= link_to "Add Ingredients", new_cocktail_dose_path(@cocktail) %>
+        <%= link_to cocktails_path do %> <br>
+        <i class="far fa-hand-point-left hand">Back</i>
+        <%end%>
       </div>
 
-
-      <div class="col-xs-12 col-sm-6">
-        <div class="card show">
+      <div class="col-xs-12 col-sm-6 ingredients-picture">
+        <div class="card show" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)),
+        url('<%= cl_image_path @cocktail.photo, height: 300, width: 400, crop: :fill %>')">
         </div>
       </div>
     </div>
   </div>
-</div>
+
 

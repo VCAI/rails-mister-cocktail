@@ -1,5 +1,5 @@
 .cards{
-  margin-top: 340px;
+  margin: 50px;
 }
 .card{
   height: 200px;
@@ -11,7 +11,6 @@
   padding: 80px 20px 20px 20px;
   margin-bottom: 25px;
   border-radius: 8px;
-  background-image: url('https://images.unsplash.com/photo-1499638673689-79a0b5115d87?ixlib=rb-0.3.5&s=c2bda7051e27d974c68aaad5a9319f54&auto=format&fit=crop&w=400&q=80')
 }
 
 .show{
@@ -38,4 +37,18 @@
 }
 .card-link:hover {
   opacity: 0.1;
+}
+
+.ingredients-card{
+  margin-top: 30px;
+  height: 500px;
+  border: 1px dotted #FF8265;
+  border-radius: 10px;
+  text-align: left;
+  padding: 50px;
+  background-color: #F4E8C1
+}
+
+.ingredients-picture{
+  margin-top: 30px;
 }
