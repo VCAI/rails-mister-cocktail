@@ -1,9 +1,9 @@
-.hand{
-  color: #4D4545;
+.fa-hand-point-left{
+  color: #F6C667;
   opacity: 1
 }
 
-.hand :hover{
+.fa-hand-point-left:hover{
   opacity: 0.6
 }
 
@@ -11,7 +11,34 @@
   margin-top: 20px;
 }
 
-.glass{
-  color:#BB0029;
-  opacity:0.8;
+.fa-glass-martini{
+  color:#8E1D41;
+  opacity:1;
+}
+
+.fa-glass-martini:hover{
+  opacity:0.4;
+}
+
+.fa-trash-alt{
+  color:#F6C667;
+  opacity:1;
+}
+
+.fa-trash-alt:hover{
+  opacity:0.4
+}
+
+.fa-plus-square{
+  color:#F6C667;
+  opacity:1;
+  size: 10px
+}
+
+.fa-plus-square:hover{
+  opacity:0.5
+}
+
+a:-webkit-any-link {
+  text-decoration: none
 }

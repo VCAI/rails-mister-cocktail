@@ -1,21 +1,24 @@
-
-
+<div class="show-banner" style="background-image: linear-gradient(-225deg, rgba(0,50,50,0.1) 0%, rgba(0,36,61,0.3) 30%), url('https://images.unsplash.com/photo-1518704558972-aed9f85b393a?ixlib=rb-0.3.5&s=f335d59699ab39d3d650a8dde29a497a&auto=format&fit=crop&w=717&q=80');">
   <div class="container">
     <div class="row">
       <div class="col-xs-12 col-sm-6 ingredients-card">
         <h2><%= @cocktail.name %></h2>
         <h5><strong>Ingredients:</strong></h5>
+        <%= link_to new_cocktail_dose_path(@cocktail) do%>
+        <i class="far fa-plus-square"></i>
+        <%end%>
         <ol>
           <% @cocktail.doses.each do |dose| %>
           <li>
             <%= dose.ingredient.name %>  <%= dose.description %>
-            <%= link_to '[ x ]', dose_path(dose), method: "delete"%>
+            <%= link_to dose_path(dose), method: "delete" do%>
+            <i class="far fa-trash-alt"></i>
+            <%end%>
           </li>
           <%end %>
         </ol>
-        <%= link_to "Add Ingredients", new_cocktail_dose_path(@cocktail) %>
         <%= link_to cocktails_path do %> <br>
-        <i class="far fa-hand-point-left hand">Back</i>
+        <i class="far fa-hand-point-left">  Back</i>
         <%end%>
       </div>
 

@@ -1,13 +1,14 @@
 .cocktail-form{
-  color: #FF8265;
+  color: #8E1D41;
+  font-style: bold;
   margin-top: 70px;
-  border: 1px solid #FF8265;
+  border: 1px dotted #8E1D41;
   padding: 40px;
   border-radius: 10px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  background-image: url('https://images.unsplash.com/photo-1514995428455-447d4443fa7f?ixlib=rb-0.3.5&s=0ebeb0a0d6c99fa9699d23fcc9469adc&auto=format&fit=crop&w=334&q=80');
+  background-image: url('https://images.unsplash.com/photo-1440713017205-02904f447e26?ixlib=rb-0.3.5&s=8d0290954b892f7fbdf7b3d4c4604f5f&auto=format&fit=crop&w=750&q=80');
   input{
     border-radius: 10px;
   }
@@ -18,18 +19,24 @@
 
 .cocktail-form h1{
   font-size: 35px;
-  text-align: center
+  font-style: bold;
+  text-align: center;
+  color: #8E1D41
 }
 
 .cocktail-form p{
   font-size: 20px;
-  text-align: center
+  font-style: bold;
+  text-align: center;
+  color: #8E1D41
 }
 
 .submit{
-  background-color: #FF8265;
-  width: 200px;
-  border-radius: 10px
+  background-color: #8E1D41;
+  width: 100px;
+  border-radius: 10px;
+  border: none;
+  color: white
 }
 
 .form-field{
@@ -37,15 +44,15 @@
 }
 
 .ingredient-form{
-  color: #FF8265;
+  color: #8E1D41;
   margin-top: 70px;
-  border: 1px solid #FF8265;
+  border: 1px dotted #8E1D41;
   padding: 40px;
   border-radius: 10px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  background-image: url('https://images.unsplash.com/photo-1504310578167-435ac09e69f3?ixlib=rb-0.3.5&s=2827d074d27cec8935aab7181204c760&auto=format&fit=crop&w=334&q=80');
+  background-image: url('https://images.unsplash.com/photo-1515243341494-3a22d891e192?ixlib=rb-0.3.5&s=d10f87e006d0a498c2cd84070cf834b7&auto=format&fit=crop&w=334&q=80');
   input{
     border-radius: 10px;
   }
